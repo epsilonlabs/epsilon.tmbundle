@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>eml</string>
+	</array>
+	<key>name</key>
+	<string>EML</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.epsilon.etl</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(merge|mid|with|into)\b</string>
+			<key>name</key>
+			<string>keyword.control.eml</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(matchTrace|mergeTrace)\b</string>
+			<key>name</key>
+			<string>constant.language.eml</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.epsilon.eml</string>
+	<key>uuid</key>
+	<string>7B0EE9B9-8DBD-46B9-A6A0-D95B66685BDE</string>
+</dict>
+</plist>
