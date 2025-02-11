@@ -26,9 +26,9 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>@.*$</string>
+			<string>(@|\$).*$</string>
 			<key>name</key>
-			<string>comment.line.annotation</string>
+			<string>meta.tag.eol</string>
 		</dict>		
 		<!--dict>
 			<key>match</key>
